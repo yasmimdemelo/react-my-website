@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./assets/styles/styles.css";
 
 import Nav from "./components/Nav"
 import Header from "./components/Header"
