@@ -152,7 +152,7 @@ ul.list {
     padding: 0;
 }
 
-.text-ocult {
+/* .text-ocult {
     display: none;
 }
 
@@ -172,7 +172,7 @@ ul.list {
 
 .card:hover img {
     display: none;
-}
+} */
 
 .card-project {
     display: inline-block;
