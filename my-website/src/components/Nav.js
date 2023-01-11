@@ -1,3 +1,4 @@
+//permitir que ao importar em outro arquivo, possa ser utilizado tudo que há naquele módulo.
 export default function Nav() {
     return (
         <nav class="navbar">
