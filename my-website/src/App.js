@@ -1,9 +1,17 @@
 import "./styles.css";
 
+import Nav from "./components/Nav"
+
 export default function App() {
   return (
     <div className="App">
-     <h1>Yasmim testing React...</h1>
+      <Nav />
+
+      {/*Incluir Header aqui */}
+
+      {/*Incluir Section */}
+
+      {/*Incluir Footer aqui */}
     </div>
   );
 }
