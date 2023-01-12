@@ -3,6 +3,36 @@ import "./assets/styles/styles.css";
 import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Section from "./components/Section"
+import Cards from "./components/Cards"
+
+const cardsAboutData = [
+  {
+    image:"img/skills.png",
+    alt:"Img skills",
+    name:"Skills", 
+    description:"I am a very dedicated and committed person.",
+    list:"Responsible Dedicated Adaptable Organized Honest Empathic ",
+  },
+  {
+    image:"img/coding.png",
+    alt:"Igm pc",
+    name:"Student web development", 
+    description:"I started studying IT in May, since then I've loved discovering everything in one click. So far I have learned a roadmap in front-end and back-end.",
+  },
+  {
+    image:"img/graduation-cap.png",
+    alt:"Img graduated",
+    name:"Graduated in accounting science", 
+    description:"Since I was little, dealing with numbers has always been easy for me.Interpreting, analyzing and organizing is a skill that I have in my personality and that led me to go to this area.",
+  },
+  {
+    image:"img/yoga-position.png",
+    alt:"Img Yoga",
+    name:"Yoga", 
+    description:"I love my yoga-based lifestyle, because self-knowledge leads us to be better human beings every day with ourselves and with the people who are part of our lives.",
+  },
+]
+
 
 export default function App() {
   return (
@@ -11,7 +41,25 @@ export default function App() {
 
       <Header />
 
-      <Section />
+      <Section title="About me">
+
+        {
+          cardsAboutData.map(function(item) {
+            return (
+              <Cards 
+                image={item.image} 
+                alt={item.alt}  
+                name={item.name} 
+                description={item.description}
+                list={item.list} 
+              />
+            )
+          })
+        }
+
+      </Section>
+
+      <Section title="Projects"/>
 
       {/*Incluir Footer aqui */}
     </div>
