@@ -1,6 +1,6 @@
 const cardsAboutData = [
     {
-        image:"https://yasmimdemelo.com/img/skills.png",
+        image:"https://yasmimdemelo.com/img/skil.png",
         alt:"Img skills",
         name:"Skills", 
         description:"I am a very dedicated and committed person.",

@@ -4,6 +4,7 @@ import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Section from "./components/Section"
 import Cards from "./components/Cards"
+import Form from "./components/Form"
 
 import { cardsAboutData } from "./mock/cards";
 import { cardsProjectData } from "./mock/card2";
@@ -16,7 +17,6 @@ export default function App() {
       <Header />
 
       <Section title="About me" className="about">
-
         {
           cardsAboutData.map(function(item) {
             return (
@@ -45,6 +45,8 @@ export default function App() {
             })
           }
       </Section >
+
+      <Form title="Contact-me"/>
 
       {/*Incluir Footer aqui */}
     </div>
