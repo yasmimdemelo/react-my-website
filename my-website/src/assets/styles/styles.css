@@ -132,6 +132,10 @@ section h3 {
     font-weight: bold;
 }
 
+section p {
+    display: block;
+}
+
 .card {
     display: inline-block;
     color: #180F4A;
@@ -140,12 +144,15 @@ section h3 {
     border: 2px solid #FF2978;
     border-radius: 10px;
     margin: 1%;
-
 }
 
 .content-text ul {
     display: inline-block;
     list-style-type: none; 
+}
+
+.content-text img {
+    margin-left: 5px;
 }
 
 ul.list {

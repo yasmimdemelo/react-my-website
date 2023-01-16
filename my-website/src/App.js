@@ -4,6 +4,7 @@ import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Section from "./components/Section"
 import Cards from "./components/Cards"
+import Card2 from "./components/Card2";
 import Form from "./components/Form"
 import ListItem from "./components/ListItem"
 import Footer from "./components/Footer"
@@ -23,7 +24,7 @@ export default function App() {
         {
           cardsAboutData.map(function(item) {
             return (
-              <Cards 
+              <Cards
                 image={item.image}
                 alt={item.alt}  
                 name={item.name} 
@@ -40,8 +41,12 @@ export default function App() {
         {
             cardsProjectData.map(function(item) {
               return (
-                <Cards
+                <Card2
+                  image={item.image}
+                  img={item.img}
+                  imgs={item.imgs}
                   name={item.name}
+                  href={item.href}
                   description={item.description}
                 />
               )
