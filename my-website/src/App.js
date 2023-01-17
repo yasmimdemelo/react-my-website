@@ -12,6 +12,7 @@ import Footer from "./components/Footer"
 import { cardsAboutData } from "./mock/cards";
 import { cardsProjectData } from "./mock/card2";
 import { listItemData } from "./mock/listItem";
+import Section2 from "./components/Section2";
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
 
       <Header />
 
-      <Section title="About me" className="about">
+      <Section title="About me" className="about" id="about-me">
         {
           cardsAboutData.map(function(item) {
             return (
@@ -37,7 +38,7 @@ export default function App() {
 
       </Section>
 
-      <Section title="Projects" className="about">
+      <Section2 title="Projects" className="projects" id="projects">
         {
             cardsProjectData.map(function(item) {
               return (
@@ -52,7 +53,7 @@ export default function App() {
               )
             })
           }
-      </Section >
+      </Section2 >
 
       <Form title="Contact-me"/>
 
