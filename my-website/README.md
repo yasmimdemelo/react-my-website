@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Purpose for me 🎯
 Apply React on my website with the objective of learning how React works, and applying the knowledge and theoretical study
 - https://yasmimdemelo.com/
-### Poject in the GitLab:
+### My website project is on GitLab:
 - https://gitlab.com/yasmimdmf95/my-website/-/tree/master
 
 ## Available Scripts
