@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Purpose for me 🎯
+Apply React on my website with the objective of learning how React works, and applying the knowledge and theoretical study
+- https://yasmimdemelo.com/
+### Poject in the GitLab:
+- https://gitlab.com/yasmimdmf95/my-website/-/tree/master
+
 ## Available Scripts
 
 In the project directory, you can run:
